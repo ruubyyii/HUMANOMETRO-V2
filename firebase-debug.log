@@ -1,0 +1,51 @@
+[debug] [2025-02-06T17:43:07.591Z] ----------------------------------------------------------------------
+[debug] [2025-02-06T17:43:07.596Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\fotyp\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-02-06T17:43:07.596Z] CLI Version:   13.30.0
+[debug] [2025-02-06T17:43:07.596Z] Platform:      win32
+[debug] [2025-02-06T17:43:07.597Z] Node Version:  v22.8.0
+[debug] [2025-02-06T17:43:07.597Z] Time:          Thu Feb 06 2025 18:43:07 GMT+0100 (hora estándar de Europa central)
+[debug] [2025-02-06T17:43:07.597Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-02-06T17:43:07.610Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-02-06T17:43:07.611Z] > authorizing via signed-in user (4tucode@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\fotyp\Desktop\HUMANOMETRO 2.0
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-02-06T17:43:23.771Z] Checked if tokens are valid: false, expires at: 1737587095954
+[debug] [2025-02-06T17:43:23.771Z] Checked if tokens are valid: false, expires at: 1737587095954
+[debug] [2025-02-06T17:43:23.771Z] > refreshing access token with scopes: []
+[debug] [2025-02-06T17:43:23.774Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2025-02-06T17:43:23.774Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-06T17:43:24.004Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2025-02-06T17:43:24.004Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2025-02-06T17:43:24.016Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-02-06T17:43:24.561Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-02-06T17:43:24.562Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project humanometro-c1f24 (Humanometro) 
+[info] 
+=== Hosting Setup
+[debug] [2025-02-06T17:43:29.631Z] Checked if tokens are valid: true, expires at: 1738867403005
+[debug] [2025-02-06T17:43:29.631Z] Checked if tokens are valid: true, expires at: 1738867403005
+[debug] [2025-02-06T17:43:29.631Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/humanometro-c1f24 [none]
+[debug] [2025-02-06T17:43:30.026Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/humanometro-c1f24 200
+[debug] [2025-02-06T17:43:30.026Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/humanometro-c1f24 {"projectId":"humanometro-c1f24","projectNumber":"1060421227873","displayName":"Humanometro","name":"projects/humanometro-c1f24","resources":{"hostingSite":"humanometro-c1f24"},"state":"ACTIVE","etag":"1_81f4aed9-ada0-4a63-b8df-68b9a07d6121"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
